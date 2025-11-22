@@ -1,0 +1,108 @@
+# ============================
+#  Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / pacotes
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Arquivos de log
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unidade de testes / cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Traduções
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# Scrapy
+.scrapy
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint-report.txt
+pylint-global-report.txt
+
+# Secret keys
+*.pem
+*.key
+
+# Local configs
+config.ini
+settings.ini
+.env.example
